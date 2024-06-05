@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="web_logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="webproject.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>Nilanjan | Developer</title>
+</head>
+<nav>
+    <ul class="nav-links">
+      <li><a href="index.html#heading0" style="text-decoration: none" class="home" >Home</a></li>
+      <li><a href="index.html#heading2" style="text-decoration: none" class="about">About</a></li>
+      <li><a href="index.html#heading4" style="text-decoration: none" class="contact" >Contact</a></li>
+    </ul>
+  </nav>  
+  <img src="images/settings.png" alt="" srcset="" id="hambarger" onclick="menu()">
+
+
+  <div id="hambargarmenu">
+    <img src="images/close.png" alt="" srcset="" id="close-menu" onclick="closemenu()">
+    <a href="index.html#heading0" style="text-decoration: none"><p  id="home" onclick="closemenu()">Home</p></a>
+    <a href="index.html#heading2" style="text-decoration: none"><p  id="about" onclick="closemenu()">About</p></a>
+    <a href="index.html#projects" style="text-decoration: none"><p  id="project" onclick="closemenu()">Projects</p></a>
+    <a href="index.html#heading4" style="text-decoration: none"><p  id="contact" onclick="closemenu()">Contact</p></a>
+  
+  </div>
+  <div class="navbar">
+    <img src="images/shortlogo.png" alt="" class="shortlogo">
+    <img src="images/logo.png" class="logo">
+  </div>
+
+  <div class="cube">
+    <div class="top"></div>
+    <div>
+      <span style="--i:0;"></span>
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+  </div>
+  <!-- <div class="cube1">
+    <div class="top"></div>
+    <div>
+      <span style="--i:0;"></span>
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+  </div> -->
+
+<p id="title">WebDev Projects</p>
+<div class="first-row">
+ <a href="https://nilanjan-joarder.netlify.app/"> <div class="project1">
+    <img src="images/project1.png" alt="" srcset="" id="project1">
+    <p id="project-text-1">This is my portfolio website, probably the one you are viewing</p>
+  </div></a>
+  <a href="https://uempyqs.netlify.app/"><div class="project2">
+    <div class="project2">
+      <img src="images/project2.png" alt="" srcset="" id="project2">
+      <p id="project-text-2">This is a collage project, where you can access the college PYQs</p>
+    </div>
+  </div></a>
+</div>
+<div class="space"></div>
+
+<script src="main.js"></script>
+<body>
+</html>
